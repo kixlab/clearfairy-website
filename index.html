@@ -1,0 +1,1091 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ClearFairy: Capturing Creative Workflows through Decision Structuring, In-Situ Questioning, and Rationale Inference. CHI 2026."
+    />
+    <title>ClearFairy — CHI 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- ─── HERO ─── -->
+    <section class="hero">
+      <div class="hero-inner">
+        <h1 class="hero-title">
+          <span class="hero-emoji">🧚</span
+          ><span class="brand"
+            >C<span class="cf-sm">LEAR</span>F<span class="cf-sm"
+              >AIRY</span
+            ></span
+          >
+        </h1>
+        <p class="hero-subtitle">
+          Capturing Creative Workflows through<br />
+          <em
+            >Decision Structuring, In-Situ Questioning, and Rationale
+            Inference</em
+          >
+        </p>
+
+        <!-- Authors -->
+        <div class="authors">
+          <div class="author">
+            <img src="assets/img/kihoon.jpeg" alt="Kihoon Son" />
+            <a href="https://kihoon-son.github.io/" target="_blank"
+              >Kihoon Son</a
+            >
+            <span>KAIST</span>
+          </div>
+          <div class="author">
+            <img src="assets/img/daeun.jpg" alt="DaEun Choi" />
+            <a href="https://daeunchoi.com/" target="_blank">DaEun Choi</a>
+            <span>KAIST</span>
+          </div>
+          <div class="author">
+            <img src="assets/img/taesoo.jpeg" alt="Tae Soo Kim" />
+            <a href="https://taesookim.com" target="_blank">Tae Soo Kim</a>
+            <span>KAIST</span>
+          </div>
+          <div class="author">
+            <img src="assets/img/youngho.jpg" alt="Young-Ho Kim" />
+            <a href="https://younghokim.net" target="_blank">Young-Ho Kim</a>
+            <span>NAVER AI Lab</span>
+          </div>
+          <div class="author">
+            <img src="assets/img/sangdoo.PNG" alt="Sangdoo Yun" />
+            <a href="https://sangdooyun.github.io/" target="_blank"
+              >Sangdoo Yun</a
+            >
+            <span>NAVER AI Lab</span>
+          </div>
+          <div class="author">
+            <img src="assets/img/juho.jpg" alt="Juho Kim" />
+            <a href="https://juhokim.com" target="_blank">Juho Kim</a>
+            <span>KAIST · SkillBench</span>
+          </div>
+        </div>
+
+        <!-- CTA Buttons -->
+        <div class="cta-buttons">
+          <a
+            href="https://arxiv.org/abs/2509.14537"
+            target="_blank"
+            class="btn btn-primary"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 512 512"
+              fill="currentColor"
+            >
+              <path
+                d="M0 64C0 28.7 28.7 0 64 0H224V128c0 17.7 14.3 32 32 32H384V304H176c-35.3 0-64 28.7-64 64V512H64c-35.3 0-64-28.7-64-64V64zm384 64H256V0L384 128zM176 352h32c30.9 0 56 25.1 56 56s-25.1 56-56 56H192v32c0 8.8-7.2 16-16 16s-16-7.2-16-16V448 368c0-8.8 7.2-16 16-16zm32 80c13.3 0 24-10.7 24-24s-10.7-24-24-24H192v48h16zm96-80h32c26.5 0 48 21.5 48 48v64c0 26.5-21.5 48-48 48H304c-8.8 0-16-7.2-16-16V368c0-8.8 7.2-16 16-16zm32 128c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H320v96h16zm80-112c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16s-7.2 16-16 16H448v32h32c8.8 0 16 7.2 16 16s-7.2 16-16 16H448v48c0 8.8-7.2 16-16 16s-16-7.2-16-16V432 368z"
+              />
+            </svg>
+            Paper (arXiv)
+          </a>
+          <a href="#dataset" class="btn btn-ghost btn-dataset">
+            <span class="btn-dataset-top">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 448 512"
+                fill="currentColor"
+              >
+                <path
+                  d="M448 80v48c0 44.2-100.3 80-224 80S0 172.2 0 128V80C0 35.8 100.3 0 224 0S448 35.8 448 80zM393.2 214.7c20.8-7.4 39.9-16.9 54.8-28.6V288c0 44.2-100.3 80-224 80S0 332.2 0 288V186.1c14.9 11.8 34 21.2 54.8 28.6C99.7 230.7 159.5 240 224 240s124.3-9.3 169.2-25.3zM0 346.1c14.9 11.8 34 21.2 54.8 28.6C99.7 390.7 159.5 400 224 400s124.3-9.3 169.2-25.3c20.8-7.4 39.9-16.9 54.8-28.6V432c0 44.2-100.3 80-224 80S0 476.2 0 432V346.1z"
+                />
+              </svg>
+              Dataset · 417 Decision Steps
+            </span>
+            <span class="btn-coming-soon">Coming Soon</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── TEASER + TL;DR (outside hero to avoid overflow:hidden clipping) ─── -->
+    <div class="teaser-outer">
+      <!-- TL;DR above teaser, bullet points -->
+      <div class="tldr-box">
+        <span class="tldr-label">TL;DR</span>
+        <ul class="tldr-list">
+          <li>
+            In creative workflows, experts' knowledge lives in the
+            <em>why</em> behind each decision — yet
+            <strong>rationales are rarely documented</strong>, leaving only
+            the artifact behind.
+          </li>
+          <li>
+            We introduce <strong>CLEAR</strong>, a framework structuring
+            workflows into <em>Cognitive Decision Steps</em>, and
+            <strong
+              >C<span class="cf-sm">LEAR</span>F<span class="cf-sm"
+                >AIRY</span
+              ></strong
+            >, an AI assistant that captures them through a
+            <strong>mixed-initiative</strong> loop of in-situ questioning and
+            rationale inference.
+          </li>
+          <li>
+            A study (N=12) shows
+            <strong>6× more well-explained decisions</strong> than a
+            think-aloud baseline, with no added cognitive load.
+          </li>
+          <li>
+            With the captured rationales, an LLM predicts professionals' next
+            actions <strong>3× more accurately</strong>, and we release a
+            <strong>dataset of 417 cognitive decision steps</strong>.
+          </li>
+        </ul>
+      </div>
+
+      <!-- Paper Trailer Video -->
+      <div class="trailer-figure">
+        <div class="trailer-video-wrap">
+          <video
+            src="assets/video/clearfairy-trailer.mp4"
+            poster="assets/img/trailer-poster.jpg"
+            controls
+            preload="metadata"
+            playsinline
+          ></video>
+        </div>
+        <p class="caption">
+          Paper trailer — a short overview of C<span class="cf-sm">LEAR</span
+          >F<span class="cf-sm">AIRY</span>.
+        </p>
+      </div>
+
+      <div class="teaser-figure">
+        <div class="teaser-img-wrap">
+          <img
+            src="assets/img/teaser.png"
+            alt="Overview of CLEAR and ClearFairy pipeline showing (a) In-Situ Questioning, (b) Workflow Capture System, and (c) Documentation page"
+          />
+        </div>
+        <p class="caption">
+          Overview of CLEAR and C<span class="cf-sm">LEAR</span>F<span
+            class="cf-sm"
+            >AIRY</span
+          >. CLEAR structures creative workflows into cognitive decision steps.
+          C<span class="cf-sm">LEAR</span>F<span class="cf-sm">AIRY</span>
+          captures these steps through (a) In-Situ Questioning on the canvas,
+          (b) a Workflow Capture System via Figma plugin, and (c) a
+          Documentation page.
+        </p>
+      </div>
+    </div>
+
+    <!-- ─── ABSTRACT ─── -->
+    <section class="abstract-section">
+      <div class="container">
+        <h2 class="section-label">Abstract</h2>
+        <p class="abstract-text">
+          Capturing professionals' decision-making in creative workflows (e.g.,
+          UI/UX) is essential for reflection, collaboration, and knowledge
+          sharing, yet existing methods often leave rationales
+          <strong>incomplete</strong> and implicit decisions
+          <strong>hidden</strong>. We present
+          <span class="brand-inline"
+            >C<span class="cf-sm">LEAR</span>F<span class="cf-sm"
+              >AIRY</span
+            ></span
+          >, a think-aloud AI assistant for UI design that detects weak
+          explanations, asks lightweight clarifying questions, and infers
+          missing rationales.
+        </p>
+        <div class="stats-row">
+          <div class="stat-card">
+            <div class="stat-number">83<span class="stat-unit">%</span></div>
+            <div class="stat-label">
+              Strong explanations captured<br /><span class="stat-sub"
+                >(vs. 14% baseline)</span
+              >
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">85<span class="stat-unit">%</span></div>
+            <div class="stat-label">
+              Inferred rationales accepted<br /><span class="stat-sub"
+                >(as-is or with revisions)</span
+              >
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">417</div>
+            <div class="stat-label">
+              Cognitive decision steps<br /><span class="stat-sub"
+                >released as a dataset</span
+              >
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">12</div>
+            <div class="stat-label">
+              Creative professionals<br /><span class="stat-sub"
+                >in user study (N=12)</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="stat-def-row">
+          <span class="stat-def-item stat-def-strong"
+            >Strong: causal reasoning with goals, alternatives, or design
+            criteria</span
+          >
+          <span class="stat-def-item stat-def-weak"
+            >Weak: some context but lacks the "why"</span
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── PROBLEM ─── -->
+    <section class="section" id="problem">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Motivation</span>
+          <h2>
+            What Makes Capturing the Rationale Behind Decisions So Difficult?
+          </h2>
+          <p class="section-desc">
+            Self-explanation during creative workflows faces three critical
+            challenges:
+          </p>
+        </div>
+        <div class="challenge-grid">
+          <div class="challenge-card">
+            <div class="card-icon">
+              <img
+                src="https://cdn.jsdelivr.net/npm/openmoji@14.0.0/black/svg/1F914.svg"
+                alt=""
+              />
+            </div>
+            <h3>Incomplete Rationales</h3>
+            <p>
+              Verbalized self-explanations are often <strong>"weak"</strong> —
+              they provide insufficient reasoning without causal context, prior
+              knowledge, or comparison of alternatives.
+            </p>
+          </div>
+          <div class="challenge-card">
+            <div class="card-icon">
+              <img
+                src="https://cdn.jsdelivr.net/npm/openmoji@14.0.0/black/svg/1F92F.svg"
+                alt=""
+              />
+            </div>
+            <h3>Disruptive Questioning</h3>
+            <p>
+              Answering clarifying questions
+              <strong>in real time</strong> interrupts the creative flow,
+              imposing a cognitive burden that hinders the design process.
+            </p>
+          </div>
+          <div class="challenge-card">
+            <div class="card-icon">
+              <img
+                src="https://cdn.jsdelivr.net/npm/openmoji@14.0.0/black/svg/2601.svg"
+                alt=""
+              />
+            </div>
+            <h3>Hidden Implicit Decisions</h3>
+            <p>
+              Verbal reports alone
+              <strong>fail to reveal implicit decisions</strong> — those based
+              on expert conventions, aesthetic intuition, or tacit knowledge
+              that feel too natural to explain.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── CLEAR FRAMEWORK ─── -->
+    <section class="section section-alt" id="clear">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Framework</span>
+          <h2>
+            <span class="brand"
+              >C<span class="cf-sm">LEAR</span></span
+            >: A New Workflow Segmentation Approach
+          </h2>
+          <p class="section-desc">
+            <strong>C</strong>ognitive <strong>L</strong>inking of
+            <strong>E</strong>xplanations, <strong>A</strong>ctions, and
+            <strong>R</strong>esults — structuring workflows into
+            <em>Cognitive Decision Steps</em>.
+          </p>
+        </div>
+
+        <!-- What is a Cognitive Decision Step -->
+        <div class="concept-box">
+          <h3>What is a Cognitive Decision Step?</h3>
+          <p>
+            A unit of decision-making defined by
+            <strong>dynamic, adaptive, and contextual</strong> boundaries —
+            comprising one or more linked
+            <span class="tag-exp">explanations</span>,
+            <span class="tag-act">actions</span>, and
+            <span class="tag-art">artifacts</span>.
+          </p>
+
+          <div class="example-box">
+            <span class="example-label">Example</span>
+            <p>
+              "This page title lacks visual emphasis — I'll make it bolder and
+              increase the size to clarify hierarchy and identity."
+            </p>
+            <div class="step-components">
+              <div class="comp comp-exp">
+                <strong>Explanation</strong><br />
+                "…clarify hierarchy and identity"
+              </div>
+              <div class="comp-arrow">→</div>
+              <div class="comp comp-act">
+                <strong>Action</strong><br />
+                Adjust font size &amp; weight
+              </div>
+              <div class="comp-arrow">→</div>
+              <div class="comp comp-art">
+                <strong>Artifact</strong><br />
+                Updated title in Figma
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Three Properties -->
+        <div class="properties-grid">
+          <div class="property-card">
+            <div class="card-icon">
+              <img
+                src="https://cdn.jsdelivr.net/npm/openmoji@14.0.0/black/svg/26A1.svg"
+                alt=""
+              />
+            </div>
+            <h3>Dynamic</h3>
+            <p>
+              Decisions are structured <strong>in real-time</strong> as they
+              occur, not retrospectively — preserving the natural flow of
+              thought.
+            </p>
+          </div>
+          <div class="property-card">
+            <div class="card-icon">
+              <img
+                src="https://cdn.jsdelivr.net/npm/openmoji@14.0.0/black/svg/1F500.svg"
+                alt=""
+              />
+            </div>
+            <h3>Adaptive</h3>
+            <p>
+              Step boundaries <strong>flex to individual differences</strong> —
+              expertise level, working style, and task context all shape
+              decision boundaries.
+            </p>
+          </div>
+          <div class="property-card">
+            <div class="card-icon">
+              <img
+                src="https://cdn.jsdelivr.net/npm/openmoji@14.0.0/black/svg/1F9E9.svg"
+                alt=""
+              />
+            </div>
+            <h3>Contextual</h3>
+            <p>
+              Each decision is <strong>fully understood</strong> only through
+              the linked combination of explanations, actions, and their
+              resulting artifacts.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── CLEARFAIRY SYSTEM ─── -->
+    <section class="section" id="system">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">System</span>
+          <h2>
+            <span class="hero-emoji">🧚</span
+            ><span class="brand"
+              >C<span class="cf-sm">LEAR</span>F<span class="cf-sm">AIRY</span></span
+            >: A Think-Aloud AI Assistant
+          </h2>
+          <p class="section-desc">
+            A Figma plugin that operationalizes CLEAR through a generative
+            pipeline — capturing, evaluating, and inferring rationales
+            <em>without disrupting the creative workflow</em>.
+          </p>
+        </div>
+
+        <!-- Three pipeline stages -->
+        <div class="pipeline-wrapper">
+          <div class="pipeline-stage" id="stage-a">
+            <div class="stage-badge">a</div>
+            <div class="stage-content">
+              <div class="stage-text">
+                <h3>In-Situ Questioning</h3>
+                <p>
+                  When the system detects a
+                  <strong>weak or empty explanation</strong>, it generates a
+                  targeted clarifying question and places it directly on the
+                  relevant element in the Figma canvas.
+                </p>
+                <ul class="stage-bullets">
+                  <li>
+                    Questions appear as on-canvas overlays — no context
+                    switching
+                  </li>
+                  <li>
+                    Designers can answer at <strong>opportune moments</strong>,
+                    not mid-action
+                  </li>
+                  <li>
+                    Visual markers highlight exactly which design element is in
+                    question
+                  </li>
+                </ul>
+              </div>
+              <div class="stage-fig">
+                <div class="pan-container">
+                  <img
+                    src="assets/img/system-qna.png"
+                    alt="In-Situ Questioning in ClearFairy — clarification question appearing on Figma canvas"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="pipeline-connector">
+            <div class="connector-line"></div>
+            <div class="connector-label">Processed by</div>
+          </div>
+
+          <div class="pipeline-stage" id="stage-b">
+            <div class="stage-badge">b</div>
+            <div class="stage-content stage-content-reverse">
+              <div class="stage-fig">
+                <div class="pan-container">
+                  <img
+                    src="assets/img/system-rationaleInference.png"
+                    alt="Rationale Inference in ClearFairy — system infers rationale based on previous decision steps"
+                  />
+                </div>
+              </div>
+              <div class="stage-text">
+                <h3>Mixed-Initiative Knowledge Capture</h3>
+                <p>
+                  ClearFairy uses a <strong>mixed-initiative</strong> design:
+                  designers explain rationales for their
+                  <strong>early decisions</strong>, and the system
+                  <strong>infers the rest</strong> from those examples,
+                  surfacing reasoning experts rarely articulate alone.
+                </p>
+                <ul class="stage-bullets">
+                  <li>
+                    <strong>Segmentation</strong>: Groups sentences and actions
+                    into decision steps via LLM
+                  </li>
+                  <li>
+                    <strong>Rationale Evaluation</strong>: Classifies each step
+                    as Strong / Weak / Empty (80.2% accuracy)
+                  </li>
+                  <li>
+                    <strong>Rationale Inference</strong>: Learns from past Q&As
+                    to <em>predict</em> missing rationales
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="pipeline-connector">
+            <div class="connector-line"></div>
+            <div class="connector-label">Organized into</div>
+          </div>
+
+          <div class="pipeline-stage" id="stage-c">
+            <div class="stage-badge">c</div>
+            <div class="stage-content">
+              <div class="stage-text">
+                <h3>Documentation</h3>
+                <p>
+                  Each captured decision step is organized into a
+                  <strong>living document</strong> containing the decision,
+                  rationale, clarification Q&A, and artifact screenshots.
+                </p>
+                <ul class="stage-bullets">
+                  <li>Searchable, reusable workflow documentation</li>
+                  <li>
+                    Useful for self-reflection, novice learning, and team
+                    collaboration
+                  </li>
+                  <li>Forms a dataset for training AI agents</li>
+                </ul>
+              </div>
+              <div class="stage-fig">
+                <div class="pan-container">
+                  <img
+                    src="assets/img/system-documentation.png"
+                    alt="Documentation page in ClearFairy showing captured cognitive decision steps"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── RESULTS ─── -->
+    <section class="section section-alt" id="results">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">User Study · N=12</span>
+          <h2>Results: More Rationale, Less Burden</h2>
+          <p class="section-desc">
+            Within-subjects study with 12 UI/UX professionals comparing C<span
+              class="cf-sm"
+              >LEAR</span
+            >F<span class="cf-sm">AIRY</span> to a think-aloud baseline.
+          </p>
+        </div>
+
+        <!-- Rationale quality definitions -->
+        <div class="rationale-defs">
+          <div class="rationale-def">
+            <span class="def-badge def-badge-strong">Strong</span>
+            <h4>Strong Explanation</h4>
+            <p>
+              Provides sufficient causal reasoning — includes goals, comparisons
+              to alternatives, prior knowledge, or aesthetic/functional criteria
+              for the decision.
+            </p>
+          </div>
+          <div class="rationale-def">
+            <span class="def-badge def-badge-weak">Weak</span>
+            <h4>Weak Explanation</h4>
+            <p>
+              Some context is given but the rationale is incomplete — lacks the
+              "why" behind the decision or relies on vague, surface-level
+              descriptions.
+            </p>
+          </div>
+          <div class="rationale-def">
+            <span class="def-badge def-badge-empty">Empty</span>
+            <h4>Empty Explanation</h4>
+            <p>
+              No rationale provided — the decision is made without any verbal
+              justification, leaving the intent entirely implicit.
+            </p>
+          </div>
+        </div>
+
+        <!-- Quantitative results figure -->
+        <div class="figure-wrapper" style="margin-bottom: 48px">
+          <img
+            src="assets/img/quant.png"
+            alt="Quantitative results comparing rationale quality distribution between ClearFairy and baseline conditions"
+          />
+          <p class="caption">
+            Quantitative results (N=12). C<span class="cf-sm">LEAR</span>F<span
+              class="cf-sm"
+              >AIRY</span
+            >
+            increased strong explanations from
+            <strong>13.9% → 83.2%</strong> while reducing empty explanations
+            from 52.5% → 8.3%, with no significant increase in cognitive load
+            (NASA-TLX).
+          </p>
+        </div>
+
+        <!-- Key findings -->
+        <div class="findings-grid">
+          <div class="finding-card">
+            <div class="card-icon">
+              <img
+                src="https://cdn.jsdelivr.net/npm/openmoji@14.0.0/black/svg/1F3AF.svg"
+                alt=""
+              />
+            </div>
+            <h3>85% Acceptance Rate</h3>
+            <p>
+              Of C<span class="cf-sm">LEAR</span>F<span class="cf-sm">AIRY</span
+              >'s AI-inferred rationales were accepted by participants (as-is or
+              with minor revisions), reflecting strong alignment with their
+              actual reasoning.
+            </p>
+          </div>
+          <div class="finding-card">
+            <div class="card-icon">
+              <img
+                src="https://cdn.jsdelivr.net/npm/openmoji@14.0.0/black/svg/1F4A1.svg"
+                alt=""
+              />
+            </div>
+            <h3>Implicit Knowledge Surfaced</h3>
+            <p>
+              The system surfaced implicit decisions based on
+              <strong
+                >expert conventions, aesthetic intuition, and personal
+                preferences</strong
+              >
+              that designers wouldn't have thought to explain.
+            </p>
+          </div>
+          <div class="finding-card">
+            <div class="card-icon">
+              <img
+                src="https://cdn.jsdelivr.net/npm/openmoji@14.0.0/black/svg/1F9E0.svg"
+                alt=""
+              />
+            </div>
+            <h3>No Added Cognitive Burden</h3>
+            <p>
+              No significant difference in NASA-TLX scores — despite capturing
+              significantly more rationale, participants did not feel a higher
+              task load.
+            </p>
+          </div>
+          <div class="finding-card">
+            <div class="card-icon">
+              <img
+                src="https://cdn.jsdelivr.net/npm/openmoji@14.0.0/black/svg/1F504.svg"
+                alt=""
+              />
+            </div>
+            <h3>Progressive Inference Loop</h3>
+            <p>
+              As designers provided richer explanations, subsequent AI
+              inferences became more specific and aligned — creating a
+              <strong>productive feedback loop</strong>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── APPLICATIONS ─── -->
+    <section class="section" id="applications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Exploratory Applications</span>
+          <h2>What Can Captured Decision Steps Enable?</h2>
+          <p class="section-desc">
+            Beyond knowledge capture, cognitive decision steps open new
+            possibilities for AI agents in creative workflows.
+          </p>
+        </div>
+
+        <div class="apps-grid">
+          <div class="app-card">
+            <div class="app-number">01</div>
+            <h3>Next-Action Prediction</h3>
+            <p>
+              When an LLM was provided with captured cognitive decision steps
+              <em>with rationale</em>, professionals preferred its predicted
+              next actions in <strong>66.7% of cases</strong> — vs. only 20% for
+              the no-rationale condition.
+            </p>
+            <div class="app-result">
+              <div class="result-bar-wrap">
+                <div class="result-bar-label">With Rationale</div>
+                <div class="result-bar">
+                  <div
+                    class="result-fill result-fill-high"
+                    style="width: 66.7%"
+                  >
+                    66.7%
+                  </div>
+                </div>
+              </div>
+              <div class="result-bar-wrap">
+                <div class="result-bar-label">Without Rationale</div>
+                <div class="result-bar">
+                  <div class="result-fill result-fill-low" style="width: 13.4%">
+                    13.4%
+                  </div>
+                </div>
+              </div>
+              <div class="result-bar-wrap">
+                <div class="result-bar-label">Baseline (no steps)</div>
+                <div class="result-bar">
+                  <div class="result-fill result-fill-low" style="width: 20%">
+                    20%
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="app-card">
+            <div class="app-number">02</div>
+            <h3>AI Design Agent Alignment</h3>
+            <p>
+              A ReAct-based Figma design agent, when given style guidelines
+              extracted from decision steps, generated artifacts that were rated
+              as more
+              <strong>structured, detailed, and professionally aligned</strong>
+              — at component, section, and page levels.
+            </p>
+            <div class="app-figure">
+              <img
+                src="assets/img/mcp.png"
+                alt="Design artifacts generated by AI agent with and without captured decision steps showing differences in style and structure"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── DATASET ─── -->
+    <section class="section section-alt" id="dataset">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Open Resource</span>
+          <h2>Dataset: 417 Cognitive Decision Steps</h2>
+          <p class="section-desc">
+            A peek at the kind of cognitive decision steps ClearFairy
+            captures from real creative workflows.
+          </p>
+        </div>
+      </div>
+
+      <!-- Full-width sample marquee with floating dataset card overlay -->
+      <div class="dataset-overlay-wrap">
+      <div class="decision-marquee">
+        <div class="decision-row">
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Increased the lab title font size from 12 to 36 and placed it in the top-left corner of the frame.</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">A 3× larger title dominates the visual hierarchy, while top-left placement matches natural reading flow so the lab name is the first thing visitors see.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">This established the visual foundation and reference point for the rest of the page layout.</p></div>
+          </div>
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Reduced item spacing from 105 to 24, line height from 32 to 30, and letter spacing from 5% to 3% to fix overstretched text.</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">The earlier values made text feel fragmented; pulling each one back into a tighter range restored visual cohesion without losing readability.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">A clear pattern of iterative narrowing — overshoot, observe, dial back — until the body text felt balanced.</p></div>
+          </div>
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Set the header height to a round 80px with 40px horizontal padding and 24px icons (a multiple of 4).</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">Round numbers and multiples of 4 reduce friction during alignment work and developer handoff later.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">These standardized dimensions prepared the header for consistent reuse across other page variants.</p></div>
+          </div>
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Applied an 8px corner radius and a soft drop shadow (12px radius, 4px offset, low opacity) to product cards.</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">An 8px radius feels modern without being cartoonish, and a subtle shadow gives just enough depth to suggest clickability.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">These visual touches transformed flat product thumbnails into inviting, interactive elements.</p></div>
+          </div>
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Set up a 12-column grid with 20px gutters and 360px offset on a 1920px frame, then sized featured-product titles down from 40 to 24 (bold).</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">12 columns flex evenly into 2/3/4/6 layouts; the 360px offset centers content. The 40 → 24 step (60% scale) clearly differentiates featured from primary titles.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">This grid + type system became the backbone for scaling from a few featured products to a full catalog.</p></div>
+          </div>
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Switched body type to Pretendard Variable Regular and headers to Hanken Grotesk Semi-Bold, with headers at 32-35px and body at 20px (1.5 line height, ~17% letter spacing).</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">Variable fonts keep file size small while supporting fine weight control. Semi-Bold conveys authority without heaviness; the spacing values fit the typeface's character.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">A coherent type system replaced default fonts, making the design feel intentional throughout.</p></div>
+          </div>
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Reduced the featured product image from 240×243 to a smaller proportion and added a fourth product card; compressed inter-card spacing from 9 to 4 units.</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">Distributing content across more cards improved perceived variety; a 4-unit grid kept spacing snappy and responsive-friendly.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">Shifted the layout from a 2-image showcase to a denser 3-4 product grid.</p></div>
+          </div>
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Crossed out the original price and lifted the discount label (e.g., "31% off") above the product image, then compacted the long review-count phrase down to "(314)".</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">The strikethrough plus elevated discount captures attention in the first 1-2 seconds of card scanning. Compacting the review count cuts visual noise without losing the signal.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">Optimized the product card for fast-scan e-commerce browsing.</p></div>
+          </div>
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Set the page background to a soft light yellow (RGB 1, 0.99, 0.88) and chose Koulen 30-40px for headlines on an 8-column grid.</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">A warm pastel background and a playful display font signal a young, casual brand voice — clearly off the corporate-template path.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">These first-impression choices anchored the rest of the design in a non-default visual identity.</p></div>
+          </div>
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Added a heart (wishlist) icon at 22×22px with 60% opacity in the bottom-right of each product card.</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">Reduced opacity and small size keep the secondary action discoverable but prevent it from competing with the product name and price.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">A small placement decision that protects the primary call-to-action from visual interference.</p></div>
+          </div>
+        </div>
+
+        <div class="decision-row" data-direction="right">
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Bumped product name size from 16 to 20px, switched from Koulen to Lexend Medium, and gave the price its own line in a thinner weight.</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">A 4px size jump establishes a clean primary-secondary hierarchy between name and price; Lexend's geometry contrasts nicely with the playful Koulen header.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">Created visual rhythm that guides the eye through product cards in the intended order.</p></div>
+          </div>
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Built the layout on a 12-column grid spanning 1920px with a 40px left margin, 80px header, and 285px product cards (5-6 per row, collapsing to 4).</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">A 1920px frame matches standard desktop monitors; 285px cards leave just enough room for comfortable visibility, and the 5 → 4 collapse handles smaller screens.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">This modular system became the constraint that scaled from a handful of featured products to the full catalog.</p></div>
+          </div>
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Replaced the cart icon with a "cart" text label (32px bold) and added a "my page" label beside it in the top-right corner.</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">Text labels are unambiguous; the 32px size keeps them clickable, and the top-right position preserves familiarity from conventional e-commerce layouts.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">Built a distinctive interface personality without breaking layout convention.</p></div>
+          </div>
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Enlarged the main hero image from 573×382 to 706×471 (a ~23% increase) and extended the supporting text background to 702×361.</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">A 23% bump significantly boosts the hero's visual weight while keeping it inside the viewport; rebalancing the side text preserves the page's overall composition.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">Reinforced the hero image as the page's primary focal element.</p></div>
+          </div>
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Switched navigation tabs from center to left alignment, reduced font from 36 → 24 → 20px (subtabs), shifted from Bold to Medium, and added 1% letter spacing.</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">Cascading sizes establish nav hierarchy at a glance; Medium weight (instead of Bold) keeps the bar from feeling heavy, and 1% spacing adds breathing room without sprawl.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">Refined an overwhelming navigation row into a clean, scannable menu system.</p></div>
+          </div>
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Expanded the lab introduction text box to 1251px wide, dropped font size from 36 to 15px, and reduced line height from 34 to 21px.</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">At 1251px the intro spans most of a 1920px viewport, claiming prominence; the smaller body size differentiates it from the title without losing readability.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">Created a substantial body block for context without competing with the headline.</p></div>
+          </div>
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Set category tabs in Noto Sans Display Regular at 24px with 39px line height (~1.6 ratio) and 1% letter spacing, centered horizontally.</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">A 1.6 line-height ratio is the sweet spot for navigation readability; Noto Sans Display brings a geometric, modern feel.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">Added a level of typographic refinement that signals deliberate craft.</p></div>
+          </div>
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Drew a section divider line at 899px wide with stroke weight increased from 1 to 4px.</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">A 4px stroke (4× the default) creates a confident visual break between sections without becoming a heavy bar; the 899px width aligns to the content grid.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">Improved visual scanning by making content boundaries unmistakable.</p></div>
+          </div>
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Shrunk research keyword boxes from 318 to 262px wide and switched the background from light gray to light blue (RGB 0.902, 0.941, 0.984).</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">A 17% width cut prevents the boxes from dominating the row; the soft blue gives them a distinct identity without breaking the palette.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">Turned utilitarian containers into intentional design components.</p></div>
+          </div>
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Set the header frame to 1512×100px, with 40px left padding, a 32px bold logo (left-aligned), and menu items reduced from 27 to 18-20px.</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">100px (divisible by 4 and 5) scales cleanly to a responsive 80px variant; the 32 → 18-20px drop creates a clear primary/secondary nav hierarchy.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">Standardized dimensions made the header reusable across multiple page variants.</p></div>
+          </div>
+        </div>
+
+        <div class="decision-row">
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Built a hamburger menu icon from three horizontal lines with a 2.5px stroke, grouped to move as one unit, in the top-left.</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">A 2.5px stroke is visible at small sizes without feeling chunky; the three-line glyph is universally read as "expand menu".</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">Signaled collapsible navigation without needing tooltips or hover states.</p></div>
+          </div>
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Increased the member-photos background area from 237 to 630px tall, darkened its fill slightly, and added a "Member Photos" label centered at 24px.</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">A 630px height (~45% of a 1400px viewport) gives the visual block real weight, leaning the page toward a magazine feel rather than a dense academic list.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">Re-balanced the page from text-heavy to image-forward.</p></div>
+          </div>
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Moved the lab name to the left of the banner, bumped its font from 30 to 32px (Semi-Bold), and added a 30px introduction text 1139px wide below.</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">Semi-Bold gives the title authority without aggression; matching intro size at 30px creates rhythm rather than contrast, and 1139px nearly fills the 1512px frame.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">Established a strong above-the-fold communication of the lab's mission.</p></div>
+          </div>
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Set the section title "NEWS" at 32px and dialed letter spacing from 0% → 20% → 15%, expanding the text width from 96 to 111px.</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">20% felt overstretched; pulling back to 15% gives breathing room while keeping the word readable as a single unit.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">Another iterative refinement: overshoot, observe, settle.</p></div>
+          </div>
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Created news thumbnails at 240×180 (4:3 aspect ratio), with publication date at 20px Medium and description at 15px (constrained to 180px wide).</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">4:3 matches standard photo and screen ratios so images feel native; the 5px font drop between date and description creates a clean information hierarchy.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">Unified news cards into a consistent, scannable grid.</p></div>
+          </div>
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Set the page frame to 1280px with an 8-column, 20px gutter, 50px offset grid; navigation menu sized at 14px in Roboto Mono.</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">1280 supports tablets and smaller laptops while remaining desktop-friendly; Roboto Mono brings a technical, lab-oriented feel.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">Baseline dimensions and font choices positioned the site for responsive design and technical credibility.</p></div>
+          </div>
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Used member pictograms at 188×242px instead of real photos, with the role label below each name.</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">Pictograms protect privacy while keeping the visual representation; the 188×242 ratio (≈0.78) fits portrait orientation without letterboxing.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">A conscious privacy decision turned into a stylistic choice for the site.</p></div>
+          </div>
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Set the main title to 36px Hanken Grotesk Bold and the subtitle to 20px (down from 36), with 28px (down from 32) spacing between them.</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">A 2:1 size ratio creates clear hierarchy; pulling the gap to 28px keeps the two elements perceptually connected as one unit.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">Anchored the visual identity in a memorable, custom typographic system.</p></div>
+          </div>
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Built research-keyword boxes with a light blue background (RGB 0.902, 0.941, 0.984), 20px Medium text, 286px width, and 16px gaps.</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">286px (≈1/5 of a 1400px viewport) packs 3-4 keywords per row; 16px gaps (a multiple of 4) keep spacing consistent with the rest of the system.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">A modular layout that can grow with new keywords without restructuring the page.</p></div>
+          </div>
+          <div class="dc-card">
+            <div class="dc-field"><span class="dc-label">Decision and Actions</span><p class="dc-text">Built a "Highlight News" card at 240×180 (4:3), with title in 20px Hanken Grotesk and description at 16px, bolding key phrases like venue names and award labels.</p></div>
+            <div class="dc-field"><span class="dc-label">Rationale</span><p class="dc-text">Bolding key achievements lets readers scan for impact in milliseconds; the 4px size drop between title and description preserves hierarchy without large jumps.</p></div>
+            <div class="dc-field"><span class="dc-label">Progression</span><p class="dc-text">Optimized the news card for skim-reading while preserving meaningful detail.</p></div>
+          </div>
+        </div>
+      </div>
+
+        <!-- Radial fade overlay -->
+        <div class="dataset-fade" aria-hidden="true"></div>
+
+        <!-- Floating dataset box on top -->
+        <div class="dataset-floating">
+        <div class="dataset-box">
+          <div class="dataset-info">
+            <div class="dataset-stat">
+              <span class="ds-num">417</span>
+              <span class="ds-label">Decision Steps</span>
+            </div>
+            <div class="dataset-stat">
+              <span class="ds-num">12</span>
+              <span class="ds-label">Professionals</span>
+            </div>
+            <div class="dataset-stat">
+              <span class="ds-num">3</span>
+              <span class="ds-label">Fields per Step</span>
+            </div>
+          </div>
+          <div class="dataset-desc">
+            <p>Each decision step contains:</p>
+            <ul>
+              <li>
+                <strong>Decision &amp; Actions</strong> — what was decided and
+                the specific actions taken
+              </li>
+              <li>
+                <strong>Contextual information</strong> — artifact state, design
+                context
+              </li>
+              <li>
+                <strong>Rationale</strong> — the "why" behind the decision
+                (sufficient causal reasoning)
+              </li>
+            </ul>
+            <a href="#" class="btn btn-primary" style="margin-top: 16px">
+              Download Dataset
+            </a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── PAPER / BIBTEX ─── -->
+    <section class="section" id="paper">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Citation</span>
+          <h2>Paper &amp; BibTeX</h2>
+        </div>
+        <div class="paper-row">
+          <a
+            href="https://arxiv.org/abs/2509.14537"
+            target="_blank"
+            class="paper-thumb"
+          >
+            <img
+              src="assets/img/teaser.png"
+              alt="ClearFairy paper thumbnail — Overview figure"
+            />
+          </a>
+          <div class="paper-info">
+            <h3>
+              C<span class="cf-sm">LEAR</span>F<span class="cf-sm">AIRY</span>:
+              Capturing Creative Workflows through Decision Structuring, In-Situ
+              Questioning, and Rationale Inference
+            </h3>
+            <p class="paper-authors">
+              Kihoon Son, DaEun Choi, Tae Soo Kim, Young-Ho Kim, Sangdoo Yun,
+              Juho Kim
+            </p>
+            <p class="paper-venue">
+              CHI 2026 — ACM Conference on Human Factors in Computing Systems
+            </p>
+            <a
+              href="https://arxiv.org/abs/2509.14537"
+              target="_blank"
+              class="btn btn-primary"
+              style="margin-top: 12px"
+            >
+              Read on arXiv →
+            </a>
+          </div>
+        </div>
+        <div class="bibtex-block">
+          <div class="bibtex-header">
+            <span>BibTeX</span>
+            <button class="copy-btn" onclick="copyBibtex()">Copy</button>
+          </div>
+          <pre id="bibtex-content">
+@inproceedings{son2026clearfairy,
+  title     = {ClearFairy: Capturing Creative Workflows through
+               Decision Structuring, In-Situ Questioning, and Rationale Inference},
+  author    = {Son, Kihoon and Choi, DaEun and Kim, Tae Soo and
+               Kim, Young-Ho and Yun, Sangdoo and Kim, Juho},
+  booktitle = {Proceedings of the 2026 CHI Conference on Human Factors
+               in Computing Systems},
+  year      = {2026},
+  publisher = {ACM},
+  doi       = {10.1145/XXXXXXX.XXXXXXX}
+}</pre
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── FOOTER ─── -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-logos">
+          <a href="https://kixlab.org" target="_blank">
+            <img
+              src="assets/img/kixlab_logo.png"
+              alt="KIXLAB"
+              onerror="this.style.display = 'none'"
+            />
+            <span>KIXLAB</span>
+          </a>
+          <a href="https://kaist.ac.kr/en/" target="_blank">
+            <img
+              src="assets/img/kaist_logo.png"
+              alt="KAIST"
+              onerror="this.style.display = 'none'"
+            />
+            <span>KAIST</span>
+          </a>
+          <a href="https://clova.ai" target="_blank">
+            <img
+              src="assets/img/naver_logo.png"
+              alt="NAVER AI Lab"
+              onerror="this.style.display = 'none'"
+            />
+            <span>NAVER AI Lab</span>
+          </a>
+          <a href="https://skillbench.com" target="_blank">
+            <img
+              src="assets/img/skillbench_logo.svg"
+              alt="SkillBench"
+              onerror="this.style.display = 'none'"
+            />
+            <span>SkillBench</span>
+          </a>
+        </div>
+        <p class="footer-ack">
+          This work was supported by the
+          <strong>KAIST-NAVER Hypercreative AI Center</strong> and the Institute
+          of Information &amp; Communications Technology Planning &amp;
+          Evaluation (IITP) (No.2019-0-00075).
+        </p>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
