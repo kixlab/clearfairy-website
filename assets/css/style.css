@@ -378,9 +378,10 @@ ul { list-style: none; }
 /* ─── Decision Step Marquee (Dataset preview) ─── */
 .decision-marquee {
   margin: 32px 0 40px;
+  padding-top: 4px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 24px;
   overflow: hidden;
   -webkit-mask-image: linear-gradient(to right, transparent, #000 2%, #000 98%, transparent);
   mask-image: linear-gradient(to right, transparent, #000 2%, #000 98%, transparent);
@@ -1204,6 +1205,32 @@ ul { list-style: none; }
 
 .result-fill-high { background: var(--purple); }
 .result-fill-low { background: #c9b8ff; color: var(--purple); }
+
+.app-insights {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  list-style: none;
+  padding-left: 0;
+}
+.app-insights li {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 6px;
+  padding-left: 14px;
+  position: relative;
+}
+.app-insights li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--purple);
+  font-weight: 700;
+}
+.app-insights li strong {
+  color: var(--dark);
+}
 
 .app-figure {
   border-radius: var(--radius);
